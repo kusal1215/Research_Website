@@ -1441,7 +1441,7 @@ ul.nav > li > a.active {
     box-shadow: none;
 }
 .hero-moc {
-    background-image: url(../img/hero-moc.png);
+    background-image: url(../screens/11.png);
     position: absolute;
     background-repeat: no-repeat;
     background-position: right top;
