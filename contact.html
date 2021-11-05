@@ -75,50 +75,6 @@
 </section><!--/. page-header -->
 
 
-<!--<section class="team-section pt-100 pb-100">-->
-<!--    <div class="container">-->
-<!--        <div class="section-heading mb-40 text-center">-->
-<!--            <h2>Our Expart Team</h2>-->
-<!--            <p>We provide marketing services to startups and small businesses to looking for a partner <br>of their digital media, design &amp; development, lead generation.</p>-->
-<!--        </div>-->
-<!--        <div class="row">-->
-<!--            <div class="col-lg-3 col-sm-6 sm-padding">-->
-<!--                <div class="team-item">-->
-<!--                    <img src="img/team-1.jpg" alt="img">-->
-<!--                    <div class="team-content">-->
-<!--                        <h3>Fiorella Ibáñez <span>Designer</span><span>Designer</span></h3>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-lg-3 col-sm-6 sm-padding">-->
-<!--                <div class="team-item">-->
-<!--                    <img src="img/team-2.jpg" alt="img">-->
-<!--                    <div class="team-content">-->
-<!--                        <h3>Fiorella Ibáñez <span>Designer</span><span>Designer</span></h3>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-lg-3 col-sm-6 sm-padding">-->
-<!--                <div class="team-item">-->
-<!--                    <img src="img/team-3.jpg" alt="img">-->
-<!--                    <div class="team-content">-->
-<!--                        <h3>Fiorella Ibáñez <span>Designer</span><span>Designer</span></h3>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-lg-3 col-sm-6 sm-padding">-->
-<!--                <div class="team-item">-->
-<!--                    <img src="img/team-4.jpg" alt="img">-->
-<!--                    <div class="team-content">-->
-<!--                        <h3>Fiorella Ibáñez <span>Designer</span><span>Designer</span></h3>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>&lt;!&ndash;/. team-section &ndash;&gt;-->
-
 
 <section id="feature" class="features-section padding">
             <div class="container">
@@ -129,7 +85,8 @@
                 <div class="row">
                     <div class="col-md-4 col-sm-6 sm-padding">
                         <div class="features-item active">
-                            <i class="truno truno-chart color-red bg-red"></i>
+<!--                            <i class="truno truno-information color-red bg-red"></i>-->
+                            <i class="fas fa-map-marker-alt color-red bg-red"></i>
                             <h3 class="color-red">ADDRESS </h3>
                             <ul><li>SLIIT Malabe Campus,</li><li>New Kandy Rd,</li><li>Malabe 10115,</li><li>Sri Lanka</li> </ul>
                         </div>
@@ -152,6 +109,50 @@
                 </div>
             </div>
         </section><!--/. features-section -->
+
+<section class="contact-section padding">
+    <div class="map"></div>
+    <div class="container">
+        <div class="contact-wrap d-flex align-items-center row">
+            <div class="col-lg-6 sm-padding">
+                <div class="contact-info">
+                    <h2>Get in touch with us & <br>send us message today!</h2>
+                    <p>We provide individuals with the best solution of recognizing their mental health stage without concerning social barriers. Mind guardian, the non-verbal bio marker for automated depression risk analysis.</p>
+                    <h3>SLIIT Malabe Campus,
+                        New Kandy Rd,<br>
+                        Malabe 10115,
+                        Sri Lanka</h3>
+                    <h4><span>Email:</span> oshadi961@gmail.com <br> <span>Phone:</span> +94 76 558 0715  <br></h4>
+                </div>
+            </div>
+            <div class="col-lg-6 sm-padding">
+                <div class="contact-form">
+                    <form action="contact.php" method="post" id="ajax_form" class="form-horizontal">
+                        <div class="form-group colum-row row">
+                            <div class="col-sm-6">
+                                <input type="text" id="name" name="name" class="form-control" placeholder="Name" required>
+                            </div>
+                            <div class="col-sm-6">
+                                <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-md-12">
+                                <textarea id="message" name="message" cols="30" rows="5" class="form-control message" placeholder="Message" required></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-md-12">
+                                <button id="submit" class="default-btn btn-blue" type="submit">Send Message</button>
+                            </div>
+                        </div>
+                        <div id="form-messages" class="alert" role="alert"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!--/. contact-section -->
 
 <footer class="widget-section">
     <div class="container">
